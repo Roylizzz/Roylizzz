@@ -1,0 +1,41 @@
+Create a futuristic GitHub profile header banner inspired by a premium dark technical brand identity system.
+
+Style:
+- Dark obsidian black background
+- Thin white technical grid lines
+- Dot-matrix typography
+- White LED glyph elements
+- Circular light patterns
+- Industrial modular interface
+- Minimal, premium, engineered, futuristic
+- High contrast monochrome with subtle electric blue accent
+- No phones, no devices, no hardware mockups
+- No existing brand logos
+- Should look like a technical operating system identity board
+
+Main title:
+DUVAN CORE
+
+Subtitle:
+SOFTWARE ENGINEERING SYSTEM
+
+Small labels:
+BACKEND
+DATABASE
+BLAZOR
+.NET
+SQL SERVER
+AUTOMATION
+SYSTEM ONLINE
+
+Composition:
+- Wide horizontal GitHub banner
+- Aspect ratio 3:1
+- Center title in dot-matrix / pixel LED style
+- Left side circular glyph icon
+- Right side small system modules and dashboard metrics
+- Thin borders and modular panels
+- Clean, precise, premium
+
+Mood:
+Futuristic, precise, minimal, intelligent, engineered, enterprise-grade.
