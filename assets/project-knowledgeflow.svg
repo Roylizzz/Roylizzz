@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="190" viewBox="0 0 560 190" role="img" aria-labelledby="title desc">
+  <title id="title">KnowledgeFlow AI</title><desc id="desc">Featured GitHub project card</desc>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#58A6FF"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient></defs>
+  <rect x="1" y="1" width="558" height="188" rx="18" fill="#0D1117" stroke="#30363D"/>
+  <rect x="1" y="1" width="558" height="5" rx="3" fill="url(#g)"/>
+  <circle cx="42" cy="42" r="18" fill="#161B22" stroke="#30363D"/><path d="M34 42h16M42 34v16" stroke="#58A6FF" stroke-width="2.4" stroke-linecap="round"/><circle cx="42" cy="42" r="5" fill="none" stroke="#8B5CF6" stroke-width="2"/>
+  <text x="72" y="39" fill="#F0F6FC" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="700">KnowledgeFlow AI</text>
+  <text x="72" y="61" fill="#7D8590" font-family="Segoe UI,Arial,sans-serif" font-size="12">KNOWLEDGE · NOTES · VISUAL THINKING</text>
+  <text x="28" y="97" fill="#C9D1D9" font-family="Segoe UI,Arial,sans-serif" font-size="14">Prototipo de notas, mapas mentales, documentación y</text>
+  <text x="28" y="117" fill="#C9D1D9" font-family="Segoe UI,Arial,sans-serif" font-size="14">herramientas visuales con una experiencia tipo workspace.</text>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="600">
+    <rect x="28" y="140" width="67" height="26" rx="13" fill="#161B22" stroke="#30363D"/><text x="43" y="157" fill="#58A6FF">REACT</text>
+    <rect x="103" y="140" width="92" height="26" rx="13" fill="#161B22" stroke="#30363D"/><text x="117" y="157" fill="#A78BFA">TYPESCRIPT</text>
+    <rect x="203" y="140" width="85" height="26" rx="13" fill="#161B22" stroke="#30363D"/><text x="219" y="157" fill="#2DD4BF">TAILWIND</text>
+  </g>
+  <text x="458" y="159" fill="#7D8590" font-family="Consolas,monospace" font-size="12">OPEN →</text>
+</svg>
