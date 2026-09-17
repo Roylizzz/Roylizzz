@@ -1,17 +1,6 @@
-<div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,45:1a1b26,75:312e81,100:7c3aed&height=220&section=header&text=Duvan%20Saldarriaga&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=%40Roylizzz%20%C2%B7%20Software%20Developer&descAlignY=58&descSize=18" alt="Duvan Saldarriaga header" />
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=1000&color=BB9AF7&center=true&vCenter=true&width=820&lines=C%23+%C2%B7+.NET+%C2%B7+Blazor+%C2%B7+SQL;Backend+%C2%B7+Automation+%C2%B7+Data+%C2%B7+UX;Building+software+that+solves+real+problems;late-night+ideas+%2B+anime+vibes" alt="Typing introduction" />
-
-<br>
-
-<img src="https://komarev.com/ghpvc/?username=Roylizzz&label=PROFILE+VIEWS&color=7c3aed&style=for-the-badge" alt="Profile views" />
-<img src="https://img.shields.io/github/followers/Roylizzz?label=FOLLOWERS&style=for-the-badge&color=7aa2f7&labelColor=1a1b26&logo=github" alt="GitHub followers" />
-
-</div>
-
-<br>
+<p align="center">
+  <img src="./assets/aurora-veil.svg" alt="Duvan Saldarriaga — Software Developer" width="100%" />
+</p>
 
 <table>
 <tr>
