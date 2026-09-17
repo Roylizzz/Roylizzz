@@ -124,25 +124,45 @@ Versioning, automation and delivery.
 </tr>
 </table>
 
-<sub>These cards refresh from live GitHub activity. Private repository names are not displayed here.</sub>
+<sub>Live cards based on public GitHub activity. Private repository names are never listed here.</sub>
+
+---
+
+## ⚔️ Developer progression
+
+<div align="center">
+
+<a href="https://gitlevel.vercel.app/u/Roylizzz">
+  <img width="78%" src="https://gitlevel.vercel.app/api/card?username=Roylizzz&theme=volt&card_width=760" alt="Roylizzz GitLevel RPG card" />
+</a>
+
+<br>
+
+<sub>Level, XP, class and combo evolve automatically from GitHub activity.</sub>
+
+</div>
 
 ---
 
 ## 🌙 Dev break
 
+<details>
+<summary><b>💭 Random developer quote</b></summary>
+<br>
 <div align="center">
-
-### A quote for the current session
-
 <img width="90%" src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random programming quote" />
-
-<br><br>
-
-### And because software development needs humor too
-
-<img width="82%" src="https://readme-jokes.vercel.app/api?bgColor=%231a1b26&borderColor=%237aa2f7&qColor=%23bb9af7&aColor=%237dcfff&textColor=%23c0caf5&codeColor=%23f7768e" alt="Random programming joke" />
-
 </div>
+</details>
+
+<br>
+
+<details>
+<summary><b>😂 Random programming joke</b></summary>
+<br>
+<div align="center">
+<img width="82%" src="https://readme-jokes.vercel.app/api?bgColor=%231a1b26&borderColor=%237aa2f7&qColor=%23bb9af7&aColor=%237dcfff&textColor=%23c0caf5&codeColor=%23f7768e" alt="Random programming joke" />
+</div>
+</details>
 
 ---
 
