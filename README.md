@@ -16,25 +16,23 @@
 
 I'm **Duvan Saldarriaga**, a software developer focused on building practical software for real workflows.
 
-I enjoy working where **backend, databases, automation and product UX** meet. My day-to-day stack is centered around **C#/.NET, Blazor and SQL**, but I also like exploring web, desktop and Android ideas when a problem deserves a different approach.
+I enjoy working where **backend, databases, automation and product UX** meet. My main stack is **C#/.NET, Blazor and SQL**, while I also explore web, desktop and Android technologies when they fit the problem.
 
-I care about software that is easy to use, understandable to maintain and solid enough to keep working after the demo.
+I care about software that is **useful, maintainable and pleasant to use** — not just something that looks good in a demo.
 
-### What I focus on
+### What I work with
 
 - Business and internal software
 - APIs, integrations and automation
 - Data-driven applications and SQL
-- Clean interfaces and useful UX
+- Web and desktop interfaces
 
 </td>
 <td width="38%" align="center" valign="middle">
 
-<a href="https://www.rawpixel.com/image/17244103/studying-anime-headphones-computer">
-  <img src="https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI1LTAzL3Jhd3BpeGVsb2ZmaWNlOF9hX2JveV9pbl9wdXJwbGVfYW5kX2JsYWNrX193ZWFyaW5nX2hlYWRwaG9uZXNfaV9hNTBkOTQ5YS05YTNjLTRkODMtOTdkNy02YzRjOGM4YThlNjZfMS5qcGc.jpg" width="300" alt="Anime-style developer coding at night" />
+<a href="https://tenor.com/view/coding-anime-gif-24565564">
+  <img src="https://media1.tenor.com/m/cX92mi1p-NYAAAAd/coding-anime.gif" width="320" alt="Anime coding" />
 </a>
-
-<sub>anime aesthetic · night coding · clean UI</sub>
 
 </td>
 </tr>
@@ -42,7 +40,7 @@ I care about software that is easy to use, understandable to maintain and solid 
 
 ---
 
-## Stack
+## Tech stack
 
 <div align="center">
 
@@ -95,9 +93,9 @@ Versioning, automation and delivery.
 
 ---
 
-## How I like to build
+## The way I build
 
-> **Understand the real problem first. Keep the interface simple. Keep the internals solid. Automate what repeats.**
+> **Understand the problem first. Keep the interface simple. Keep the internals solid. Automate what repeats.**
 
 <div align="center">
 
