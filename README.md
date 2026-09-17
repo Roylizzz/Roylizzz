@@ -1,110 +1,153 @@
 <div align="center">
 
-<img src="./assets/banner.svg" width="100%" alt="Duvan Saldarriaga — Software Developer" />
+<img src="./assets/banner.svg" width="100%" alt="Roylizzz — Duvan Saldarriaga" />
 
 <br/>
 
-<a href="https://github.com/Roylizzz">
-  <img src="https://img.shields.io/badge/@Roylizzz-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</a>
-<img src="https://img.shields.io/badge/Software_Developer-0D1117?style=for-the-badge&logo=code&logoColor=58A6FF" alt="Software Developer" />
-<img src="https://img.shields.io/badge/Building_useful_systems-0D1117?style=for-the-badge&logoColor=white" alt="Building useful systems" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2600&pause=900&color=C4B5FD&center=true&vCenter=true&width=850&lines=software+developer+%2F%2F+night+mode;building+useful+things+with+code;C%23+%C2%B7+.NET+%C2%B7+Blazor+%C2%B7+SQL+%C2%B7+Web+%C2%B7+Desktop;anime+vibes+%2B+developer+mindset" alt="Typing intro" />
 
 </div>
 
-<br/>
+<img src="./assets/divider.svg" width="100%" alt="divider" />
 
-## About me
+## `01 // WHO_AM_I`
 
-Soy **Duvan Saldarriaga** (`@Roylizzz`), desarrollador de software enfocado en construir productos y herramientas que resuelvan problemas reales.
+<table>
+<tr>
+<td width="58%" valign="top">
 
-Trabajo especialmente con **C#/.NET, Blazor, SQL, APIs, automatización y aplicaciones empresariales**, pero también disfruto explorar productos web, Android, UX y nuevas formas de organizar información.
+### Hola, soy Duvan.
+
+Desarrollador de software detrás de **`@Roylizzz`**.
+
+Me gusta construir software que tenga una razón para existir: herramientas útiles, automatizaciones, interfaces limpias y sistemas que funcionen bien más allá de la demo.
+
+Mi zona favorita está entre **backend, bases de datos, producto y UX**. Puedo pasar de una consulta SQL a una interfaz, de una integración a una app de escritorio y de una idea pequeña a convertirla en un sistema completo.
 
 ```txt
-BUILD   → software útil, mantenible y claro
-FOCUS   → sistemas · automatización · datos · producto
-STYLE   → simple por fuera, sólido por dentro
+> build useful things
+> remove unnecessary complexity
+> make the experience feel good
+> repeat
 ```
 
-## Tech stack
+</td>
+<td width="42%" align="center" valign="top">
+
+<img src="./assets/character-card.svg" width="100%" alt="Roylizzz anime-inspired character card" />
+
+</td>
+</tr>
+</table>
+
+<img src="./assets/divider.svg" width="100%" alt="divider" />
+
+## `02 // LOADOUT`
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=cs,dotnet,react,ts,postgres,kotlin,git,github&perline=8" alt="Main technologies" />
+<img src="https://skillicons.dev/icons?i=cs,dotnet,react,ts,js,postgres,kotlin,git,github,vscode&perline=10" alt="Technology stack" />
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/Blazor-512BD4?style=flat-square&logo=blazor&logoColor=white" alt="Blazor" />
-<img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
-<img src="https://img.shields.io/badge/Dapper-0D1117?style=flat-square" alt="Dapper" />
-<img src="https://img.shields.io/badge/WPF-0078D6?style=flat-square&logo=windows&logoColor=white" alt="WPF" />
-<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-<img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
-<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+<img src="https://img.shields.io/badge/BLAZOR-151326?style=for-the-badge&logo=blazor&logoColor=A78BFA" />
+<img src="https://img.shields.io/badge/SQL_SERVER-151326?style=for-the-badge&logo=microsoftsqlserver&logoColor=F472B6" />
+<img src="https://img.shields.io/badge/WPF-151326?style=for-the-badge&logo=windows&logoColor=38BDF8" />
+<img src="https://img.shields.io/badge/REST_APIs-151326?style=for-the-badge&logo=fastapi&logoColor=C4B5FD" />
+<img src="https://img.shields.io/badge/AUTOMATION-151326?style=for-the-badge&logo=githubactions&logoColor=F0ABFC" />
 
 </div>
-
-## Featured projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/Roylizzz/knowledgeflow-ai">
-<img src="./assets/project-knowledgeflow.svg" width="100%" alt="KnowledgeFlow AI" />
-</a>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/Roylizzz/AppVoice">
-<img src="./assets/project-appvoice.svg" width="100%" alt="AppVoice" />
-</a>
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-<a href="https://github.com/Roylizzz?tab=repositories">
-  <img src="https://img.shields.io/badge/Explore_all_public_repositories-161B22?style=for-the-badge&logo=github&logoColor=white" alt="Explore repositories" />
-</a>
-
-</div>
-
-## What I like to build
-
-<table>
-<tr>
-<td width="25%" align="center"><b>Enterprise systems</b><br/><sub>Business logic, workflows and internal tools.</sub></td>
-<td width="25%" align="center"><b>Automation</b><br/><sub>Less repetitive work, more reliable processes.</sub></td>
-<td width="25%" align="center"><b>Data-driven apps</b><br/><sub>SQL, integrations, APIs and useful dashboards.</sub></td>
-<td width="25%" align="center"><b>Product experiments</b><br/><sub>Web, Android, UX and new interfaces.</sub></td>
-</tr>
-</table>
-
-## GitHub activity
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Roylizzz&show_icons=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=8B5CF6&rank_icon=github" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Roylizzz&layout=compact&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8" alt="Top languages" />
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=Roylizzz&hide_border=true&background=0D1117&stroke=30363D&ring=58A6FF&fire=8B5CF6&currStreakNum=F0F6FC&sideNums=C9D1D9&currStreakLabel=58A6FF&sideLabels=7D8590&dates=7D8590" alt="GitHub streak" />
+```txt
+MAIN        C# / .NET / Blazor / SQL
+BUILDING    Web · Desktop · APIs · Automation
+EXPLORING   React · TypeScript · Kotlin · PostgreSQL
+INTERESTS   UX · Product · Systems · AI-assisted workflows
+```
 
-</div>
+<img src="./assets/divider.svg" width="100%" alt="divider" />
 
----
+## `03 // MY_STYLE`
+
+<table>
+<tr>
+<td width="25%" align="center">
+
+### ⚙️ Systems
+<sub>Me gusta entender cómo encajan todas las piezas, no solo hacer que compile.</sub>
+
+</td>
+<td width="25%" align="center">
+
+### ✦ UX
+<sub>Una herramienta puede ser poderosa sin sentirse complicada.</sub>
+
+</td>
+<td width="25%" align="center">
+
+### ⛩️ Identity
+<sub>Interfaces con personalidad. Oscuras, limpias y con un poco de anime.</sub>
+
+</td>
+<td width="25%" align="center">
+
+### ↻ Evolution
+<sub>Construir, probar, corregir y volver a mejorar.</sub>
+
+</td>
+</tr>
+</table>
+
+<img src="./assets/divider.svg" width="100%" alt="divider" />
+
+## `04 // CURRENT_ROUTE`
+
+```yaml
+player: Roylizzz
+name: Duvan Saldarriaga
+class: Software Developer
+status: online
+
+focus:
+  - business software
+  - automation
+  - database-driven systems
+  - clean interfaces
+  - useful experiments
+
+rules:
+  - "simple outside, solid inside"
+  - "understand the problem before writing the solution"
+  - "if something repeats, automate it"
+  - "good UX is part of the engineering"
+```
+
+<img src="./assets/divider.svg" width="100%" alt="divider" />
+
+## `05 // DEV_ENERGY`
 
 <div align="center">
 
-### Build useful things. Keep improving them.
+### `while (alive) { learn(); build(); improve(); }`
 
-<sub>C# · .NET · Blazor · SQL · React · TypeScript · Kotlin · Automation</sub>
+<br/>
+
+<img src="https://img.shields.io/badge/NIGHT_MODE-ON-151326?style=for-the-badge&logo=moonrepo&logoColor=A78BFA" />
+<img src="https://img.shields.io/badge/COFFEE-OPTIONAL-151326?style=for-the-badge&logo=buymeacoffee&logoColor=F0ABFC" />
+<img src="https://img.shields.io/badge/CURIOSITY-MAX-151326?style=for-the-badge&logo=dependabot&logoColor=38BDF8" />
+
+<br/><br/>
+
+> **「進化」 — keep evolving.**
+
+<sub>software · systems · anime vibes · late-night ideas</sub>
 
 <br/><br/>
 
 <a href="https://github.com/Roylizzz">
-  <img src="https://img.shields.io/badge/GitHub-Roylizzz-161B22?style=for-the-badge&logo=github&logoColor=white" alt="Roylizzz on GitHub" />
+  <img src="https://img.shields.io/badge/GITHUB-@ROYLIZZZ-0D0C18?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
 </a>
 
 </div>
