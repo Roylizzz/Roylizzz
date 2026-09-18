@@ -24,7 +24,7 @@
 
 <br><br>
 
-<img src="https://count.getloli.com/get/@Roylizzz?theme=asoul" alt="Visitor counter" height="52">
+<img src="https://count.getloli.com/get/@Roylizzz?theme=asoul" alt="Visitor counter" height="80">
 
 </div>
 
