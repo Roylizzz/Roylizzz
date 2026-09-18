@@ -1,0 +1,42 @@
+name: snake
+
+# Redraws the contribution snake and publishes it to the `output` branch.
+# Keeping the generated art off `main` is what makes this one stable: the
+# README always points at a branch that only this job ever writes to.
+
+on:
+  schedule:
+    - cron: "17 3,15 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: snake
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Draw the snake
+        uses: Platane/snk@v3
+        id: snake
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?palette=github-dark&color_snake=%23C084FC&color_dots=%231A0F2E,%234C1D95,%236D28D9,%238B5CF6,%23C4B5FD
+            dist/snake-light.svg?color_snake=%237C3AED&color_dots=%23EDE6FD,%23C4B5FD,%23A78BFA,%237C3AED,%235B21B6
+
+      - name: Publish to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: redraw snake"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

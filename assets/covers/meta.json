@@ -1,0 +1,50 @@
+{
+  "chainsaw-man": {
+    "title": "Chainsaw Man",
+    "format": "MANGA",
+    "year": 2018,
+    "status": "FINISHED",
+    "score": 84,
+    "character": "Makima"
+  },
+  "death-note": {
+    "title": "Death Note",
+    "format": "TV",
+    "year": 2006,
+    "status": "FINISHED",
+    "score": 84,
+    "character": "L Lawliet"
+  },
+  "vinland-saga": {
+    "title": "Vinland Saga",
+    "format": "MANGA",
+    "year": 2005,
+    "status": "FINISHED",
+    "score": 90,
+    "character": "Thorfinn Karlsefni"
+  },
+  "rezero": {
+    "title": "Re:ZERO -Starting Life in Another World-",
+    "format": "TV",
+    "year": 2016,
+    "status": "FINISHED",
+    "score": 81,
+    "character": "Emilia"
+  },
+  "lord-of-the-mysteries": {
+    "title": "Lord of the Mysteries",
+    "format": "MANGA",
+    "year": 2020,
+    "status": "FINISHED",
+    "score": 74,
+    "character": "Klein Moretti"
+  },
+  "mushoku-tensei": {
+    "title": "Mushoku Tensei: Jobless Reincarnation",
+    "format": "TV",
+    "year": 2021,
+    "status": "FINISHED",
+    "score": 82,
+    "character": "Roxy Migurdia"
+  }
+}
