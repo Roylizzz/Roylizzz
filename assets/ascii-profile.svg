@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="470" viewBox="0 0 980 470" font-family="JetBrains Mono,Consolas,monospace">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0712"/>
+      <stop offset="55%" stop-color="#140b22"/>
+      <stop offset="100%" stop-color="#211037"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#c4b5fd"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="980" height="470" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="978" height="468" rx="17" fill="none" stroke="#5b21b6" stroke-opacity=".55"/>
+  
+  <circle cx="28" cy="25" r="6" fill="#f7768e"/>
+  <circle cx="48" cy="25" r="6" fill="#e0af68"/>
+  <circle cx="68" cy="25" r="6" fill="#9ece6a"/>
+  <text x="94" y="30" font-size="14" fill="#71658f">roylizzz@github — profile.json</text>
+
+  <line x1="382" y1="56" x2="382" y2="432" stroke="#31224d" stroke-width="1"/>
+
+  <text x="28" y="78" font-size="15" fill="#c4b5fd" xml:space="preserve">
+    <tspan x="28" dy="0">             ░▒▓████████▓▒░</tspan>
+    <tspan x="28" dy="18">          ▒██▓▒░      ░▒▓██▒</tspan>
+    <tspan x="28" dy="18">        ▓██░   ▒▓▓▓▓▒   ░██▓</tspan>
+    <tspan x="28" dy="18">       ██▒   ▓████████▓   ▒██</tspan>
+    <tspan x="28" dy="18">      ██░   ██▀      ▀██   ░██</tspan>
+    <tspan x="28" dy="18">      ██   ██   ◕  ◕   ██   ██</tspan>
+    <tspan x="28" dy="18">      ██   ██     ▿     ██   ██</tspan>
+    <tspan x="28" dy="18">      ██    ▀▄  ▔▔▔  ▄▀    ██</tspan>
+    <tspan x="28" dy="18">       ██░    ▀▄▄▄▄▀    ░██</tspan>
+    <tspan x="28" dy="18">        ▓██▒░        ░▒██▓</tspan>
+    <tspan x="28" dy="18">          ▒▓████████▓▒</tspan>
+    <tspan x="28" dy="18"></tspan>
+    <tspan x="28" dy="18" fill="#8b5cf6">            「 夜 // purple mode 」</tspan>
+    <tspan x="28" dy="18" fill="#71658f">          anime · code · late nights</tspan>
+  </text>
+
+  <text x="420" y="82" font-size="17" fill="#e9d5ff">
+    <tspan fill="#8b5cf6">{</tspan>
+    <tspan x="446" dy="32" fill="#bb9af7">"name"</tspan><tspan fill="#71658f">        : </tspan><tspan fill="#c4b5fd">"Duvan Saldarriaga"</tspan><tspan fill="#8b5cf6">,</tspan>
+    <tspan x="446" dy="30" fill="#bb9af7">"alias"</tspan><tspan fill="#71658f">       : </tspan><tspan fill="#c4b5fd">"@Roylizzz"</tspan><tspan fill="#8b5cf6">,</tspan>
+    <tspan x="446" dy="30" fill="#bb9af7">"role"</tspan><tspan fill="#71658f">        : </tspan><tspan fill="#c4b5fd">"Software Developer"</tspan><tspan fill="#8b5cf6">,</tspan>
+    <tspan x="446" dy="30" fill="#bb9af7">"builds"</tspan><tspan fill="#71658f">      : </tspan><tspan fill="#c4b5fd">"useful things"</tspan><tspan fill="#8b5cf6">,</tspan>
+    <tspan x="446" dy="30" fill="#bb9af7">"vibe"</tspan><tspan fill="#71658f">        : [</tspan>
+    <tspan x="478" dy="28" fill="#c4b5fd">"purple"</tspan><tspan fill="#71658f">, </tspan><tspan fill="#c4b5fd">"anime"</tspan><tspan fill="#71658f">, </tspan><tspan fill="#c4b5fd">"late-night"</tspan><tspan fill="#71658f">],</tspan>
+    <tspan x="446" dy="30" fill="#bb9af7">"likes"</tspan><tspan fill="#71658f">       : [</tspan>
+    <tspan x="478" dy="28" fill="#c4b5fd">"UI/UX"</tspan><tspan fill="#71658f">, </tspan><tspan fill="#c4b5fd">"games"</tspan><tspan fill="#71658f">, </tspan><tspan fill="#c4b5fd">"tools"</tspan><tspan fill="#71658f">],</tspan>
+    <tspan x="446" dy="30" fill="#bb9af7">"status"</tspan><tspan fill="#71658f">      : </tspan><tspan fill="#9ece6a">"building"</tspan>
+    <tspan x="420" dy="32" fill="#8b5cf6">}</tspan>
+  </text>
+
+  <text x="420" y="394" font-size="13" fill="#71658f">rendering personality...</text>
+  <rect x="420" y="408" width="490" height="10" rx="5" fill="#1c112d"/>
+  <rect x="420" y="408" width="384" height="10" rx="5" fill="url(#purple)"/>
+  <text x="820" y="417" font-size="11" fill="#c4b5fd">78%</text>
+</svg>
