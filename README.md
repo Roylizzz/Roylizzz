@@ -25,20 +25,30 @@
 <img src="https://img.shields.io/badge/%23c4b5fd-c4b5fd?style=flat-square" alt="#c4b5fd" />
 
 </td>
-<td width="56%" valign="middle">
+<td width="56%" align="center" valign="middle">
 
-```text
-roylizzz@github
-------------------------------
-name      Duvan Saldarriaga
-role      software developer
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=2600&pause=900&color=C4B5FD&center=true&vCenter=true&repeat=false&width=500&height=52&lines=Duvan+Saldarriaga" alt="Duvan Saldarriaga" />
 
-main      C# · .NET · Blazor · SQL
-builds    web · desktop · APIs · automation
-also      React · TypeScript · Kotlin · PostgreSQL
+<br>
 
-likes     UI/UX · anime · games · tools
-```
+<img src="https://img.shields.io/badge/SOFTWARE%20DEVELOPER-5B21B6?style=for-the-badge&labelColor=12091f" alt="Software Developer" />
+
+<br><br>
+
+<img src="https://img.shields.io/badge/C%23-211037?style=flat-square&logo=csharp&logoColor=C4B5FD" alt="C#" />
+<img src="https://img.shields.io/badge/.NET-211037?style=flat-square&logo=dotnet&logoColor=C4B5FD" alt=".NET" />
+<img src="https://img.shields.io/badge/BLAZOR-211037?style=flat-square&logo=blazor&logoColor=C4B5FD" alt="Blazor" />
+<img src="https://img.shields.io/badge/SQL-211037?style=flat-square&logo=microsoftsqlserver&logoColor=C4B5FD" alt="SQL" />
+
+<br><br>
+
+<sub><b>web · desktop · APIs · automation</b></sub>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/UI%2FUX-0b0712?style=flat-square&logo=figma&logoColor=8B5CF6" alt="UI UX" />
+<img src="https://img.shields.io/badge/ANIME-0b0712?style=flat-square&logo=crunchyroll&logoColor=8B5CF6" alt="Anime" />
+<img src="https://img.shields.io/badge/GAMES-0b0712?style=flat-square&logo=steam&logoColor=8B5CF6" alt="Games" />
 
 </td>
 </tr>
