@@ -275,18 +275,6 @@ def hero(pal: dict) -> str:
     out.append(
         mono("roylizzz@github: ~/profile — neofetch", 128, 50, 12.5, pal["dim"], spacing=0.4)
     )
-    out.append(
-        mono(
-            f"{'dark' if dark else 'light'} mode · svg",
-            946,
-            50,
-            11,
-            pal["dim"],
-            anchor="end",
-            spacing=1.2,
-            opacity=0.8,
-        )
-    )
 
     # left column: the mask
     out.append(f'<path d="M322 86v300" stroke="{pal["border"]}" stroke-width="1.5"/>')
@@ -312,10 +300,6 @@ def hero(pal: dict) -> str:
             oni_palette(pal),
             extra={"e": 'class="pl"'},
         )
-    )
-    out.append(pf.draw("ONI MODE", 175 - pf.measure("ONI MODE", 3) // 2, 352, 3, 1, pal["accent"]))
-    out.append(
-        mono("ascii://sigil-01", 175, 384, 10.5, pal["dim"], anchor="middle", spacing=1.6)
     )
 
     # right column
@@ -384,9 +368,6 @@ def hero(pal: dict) -> str:
             f'fill="{colour}" stroke="{pal["border"]}" stroke-width="0.6" class="sw" '
             f'style="animation-delay:{round(i * 0.18, 2)}s"/>'
         )
-    out.append(
-        mono("purple · always", 940, prompt_y, 10.5, pal["dim"], anchor="end", spacing=1.4)
-    )
 
     # corner brackets
     for path in [
@@ -830,18 +811,14 @@ def footer(pal: dict) -> str:
 # --------------------------------------------------------------------------
 
 HEADINGS = {
-    "about": ("ABOUT", "// who is behind the keyboard"),
-    "stack": ("STACK", "// the tools that survive my projects"),
-    "signals": ("SIGNALS", "// activity, code time and other noise"),
-    "offscreen": ("OFF SCREEN", "// what runs when the ide is closed"),
-    "connect": ("CONNECT", "// open inbox, purple carpet"),
+    "about": ("ABOUT", ""),
+    "stack": ("STACK", ""),
+    "signals": ("SIGNALS", ""),
+    "offscreen": ("OFF SCREEN", ""),
+    "connect": ("CONNECT", ""),
 }
 
-NOTES = {
-    "stack": "also in rotation · blazor · wpf · sql server · rest apis",
-    "offscreen": "not a ranking — just the ones i keep going back to",
-    "signals": "numbers rebuilt every night by a workflow in this repo",
-}
+NOTES = {}
 
 PILLS = [
     ("now", "NOW"),
@@ -876,7 +853,6 @@ def main() -> None:
     write("characters.svg", characters(meta))
     for pal in (DARK, LIGHT):
         write(f"nowplaying-{pal['name']}.svg", nowplaying(pal))
-        write(f"footer-{pal['name']}.svg", footer(pal))
     print("done.")
 
 

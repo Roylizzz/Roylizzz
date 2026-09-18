@@ -64,9 +64,6 @@ Anime between builds, web novels at hours I should be asleep, and a playlist tha
   <img alt="Visual Studio, VS Code, PostgreSQL, Git, GitHub, PowerShell" src="https://skillicons.dev/icons?i=visualstudio,vscode,postgres,git,github,powershell&theme=dark" height="42">
 </picture>
 
-<br><br>
-
-<img src="https://raw.githubusercontent.com/Roylizzz/Roylizzz/main/assets/note-stack.svg" alt="Also in rotation: Blazor, WPF, SQL Server, REST APIs" width="72%">
 
 </div>
 
@@ -127,10 +124,6 @@ Anime between builds, web novels at hours I should be asleep, and a playlist tha
   <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/Roylizzz/Roylizzz/output/snake-dark.svg" width="100%">
 </picture>
 
-<br>
-
-<img src="https://raw.githubusercontent.com/Roylizzz/Roylizzz/main/assets/note-signals.svg" alt="Numbers rebuilt every night by a workflow in this repo" width="72%">
-
 <br><br>
 
 <img src="https://raw.githubusercontent.com/Roylizzz/Roylizzz/main/assets/pill-visitors.svg" alt="Visitors" height="26">
@@ -156,9 +149,6 @@ Anime between builds, web novels at hours I should be asleep, and a playlist tha
 <img src="https://raw.githubusercontent.com/Roylizzz/Roylizzz/main/assets/watch-lord-of-the-mysteries.svg" alt="Lord of the Mysteries" width="47%">
 <img src="https://raw.githubusercontent.com/Roylizzz/Roylizzz/main/assets/watch-mushoku-tensei.svg" alt="Mushoku Tensei" width="47%">
 
-<br><br>
-
-<img src="https://raw.githubusercontent.com/Roylizzz/Roylizzz/main/assets/note-offscreen.svg" alt="Not a ranking — just the ones I keep going back to" width="72%">
 
 <br><br>
 
@@ -185,12 +175,5 @@ Anime between builds, web novels at hours I should be asleep, and a playlist tha
 &nbsp;
 <a href="mailto:YOUR_EMAIL"><img src="https://raw.githubusercontent.com/Roylizzz/Roylizzz/main/assets/pill-email.svg" alt="Email" height="30"></a>
 
-<br><br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Roylizzz/Roylizzz/main/assets/footer-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Roylizzz/Roylizzz/main/assets/footer-light.svg">
-  <img alt="Thanks for scrolling" src="https://raw.githubusercontent.com/Roylizzz/Roylizzz/main/assets/footer-dark.svg" width="100%">
-</picture>
 
 </div>
