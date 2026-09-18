@@ -35,29 +35,22 @@
 
 <img src="https://img.shields.io/badge/SOFTWARE%20DEVELOPER-5B21B6?style=for-the-badge&logoColor=white" alt="Software Developer" />
 
-<br><br>
-
-<img src="https://img.shields.io/badge/UI%20%2F%20UX-211037?style=flat-square&logo=figma&logoColor=C4B5FD" alt="UI UX" />
-<img src="https://img.shields.io/badge/ANIME-211037?style=flat-square&logo=crunchyroll&logoColor=C4B5FD" alt="Anime" />
-<img src="https://img.shields.io/badge/GAMES-211037?style=flat-square&logo=steam&logoColor=C4B5FD" alt="Games" />
-<img src="https://img.shields.io/badge/NIGHT%20MODE-211037?style=flat-square&logo=starship&logoColor=C4B5FD" alt="Night mode" />
-
-<br><br>
-
-<img src="https://img.shields.io/badge/building-useful%20things-0b0712?style=flat-square&logo=github&logoColor=8B5CF6" alt="Building useful things" />
-<img src="https://img.shields.io/badge/vibe-purple%20%2B%20late%20night-0b0712?style=flat-square&logo=moonrepo&logoColor=8B5CF6" alt="Purple late night vibe" />
-
 </td>
 </tr>
 </table>
 
 <br>
 
-<div align="center">
+```text
+██████╗  ██████╗ ██╗   ██╗██╗     ██╗███████╗███████╗███████╗
+██╔══██╗██╔═══██╗╚██╗ ██╔╝██║     ██║╚══███╔╝╚══███╔╝╚══███╔╝
+██████╔╝██║   ██║ ╚████╔╝ ██║     ██║  ███╔╝   ███╔╝   ███╔╝
+██╔══██╗██║   ██║  ╚██╔╝  ██║     ██║ ███╔╝   ███╔╝   ███╔╝
+██║  ██║╚██████╔╝   ██║   ███████╗██║███████╗███████╗███████╗
+╚═╝  ╚═╝ ╚═════╝    ╚═╝   ╚══════╝╚═╝╚══════╝╚══════╝╚══════╝
 
-<img src="./assets/ascii-profile.svg" width="100%" alt="Roylizzz ASCII profile card" />
-
-</div>
+Duvan Saldarriaga · Software Developer
+```
 
 <br>
 
