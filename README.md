@@ -16,6 +16,18 @@
 
 </div>
 
+<br>
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Roylizzz/Roylizzz/main/assets/pill-visitors.svg" alt="Visitors" height="26">
+
+<br><br>
+
+<img src="https://count.getloli.com/get/@Roylizzz?theme=asoul" alt="Visitor counter" height="52">
+
+</div>
+
 <!-- ─────────────────────────────  about  ───────────────────────────── -->
 
 <div align="center">
@@ -123,14 +135,6 @@ Anime between builds, web novels at hours I should be asleep, and a playlist tha
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Roylizzz/Roylizzz/output/snake-light.svg">
   <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/Roylizzz/Roylizzz/output/snake-dark.svg" width="100%">
 </picture>
-
-<br><br>
-
-<img src="https://raw.githubusercontent.com/Roylizzz/Roylizzz/main/assets/pill-visitors.svg" alt="Visitors" height="26">
-
-<br><br>
-
-<img src="https://count.getloli.com/get/@Roylizzz?theme=asoul" alt="Visitor counter" height="52">
 
 </div>
 
