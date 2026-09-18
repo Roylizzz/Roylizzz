@@ -1,199 +1,58 @@
-<p align="center">
-  <img src="./assets/aurora-veil.svg" alt="Duvan Saldarriaga — Software Developer" width="100%" />
-</p>
+<img align="right" width="310" src="https://media1.tenor.com/m/cX92mi1p-NYAAAAd/coding-anime.gif" alt="Anime coding" />
 
-<table>
-<tr>
-<td width="61%" valign="top">
+# Roylizzz
 
-## 👋 About me
+**Duvan Saldarriaga**
 
-I'm **Duvan Saldarriaga**, a software developer who enjoys turning real workflows into software that feels simple on the outside and stays solid underneath.
+`C#` · `.NET` · `Blazor` · `SQL`
 
-My main world is **C#/.NET, Blazor and SQL**, especially for business software, APIs, integrations, automation and data-heavy applications. I also like exploring web, desktop, Android and product UX whenever the problem calls for it.
-
-```txt
-> understand the problem
-> remove unnecessary complexity
-> automate what repeats
-> make the experience feel good
-> ship, learn, improve
-```
-
-### What I enjoy building
-
-`Business software` · `Automation` · `APIs` · `Dashboards` · `Desktop apps` · `Internal tools`
-
-</td>
-<td width="39%" align="center" valign="middle">
-
-<img src="https://media1.tenor.com/m/cX92mi1p-NYAAAAd/coding-anime.gif" width="320" alt="Anime coding at night" />
-
-<sub>夜 — night mode is a feature.</sub>
-
-</td>
-</tr>
-</table>
-
----
-
-## 🧰 Tech stack
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=cs,dotnet,visualstudio,react,ts,js,postgres,kotlin,git,github,vscode&theme=dark&perline=11" alt="Main technology stack" />
-
-<br><br>
-
-<img src="https://img.shields.io/badge/Blazor-1a1b26?style=for-the-badge&logo=blazor&logoColor=bb9af7" alt="Blazor" />
-<img src="https://img.shields.io/badge/SQL_Server-1a1b26?style=for-the-badge&logo=microsoftsqlserver&logoColor=f7768e" alt="SQL Server" />
-<img src="https://img.shields.io/badge/WPF-1a1b26?style=for-the-badge&logo=windows&logoColor=7dcfff" alt="WPF" />
-<img src="https://img.shields.io/badge/REST_APIs-1a1b26?style=for-the-badge&logo=fastapi&logoColor=9ece6a" alt="REST APIs" />
-<img src="https://img.shields.io/badge/GitHub_Actions-1a1b26?style=for-the-badge&logo=githubactions&logoColor=7aa2f7" alt="GitHub Actions" />
-
-</div>
+Web · Desktop · APIs · Automation
 
 <br>
 
-<table>
-<tr>
-<td width="25%" valign="top">
+<img src="https://komarev.com/ghpvc/?username=Roylizzz&label=views&color=6d28d9&style=flat-square" alt="Profile views" />
+<img src="https://img.shields.io/github/followers/Roylizzz?label=followers&style=flat-square&color=7c3aed&labelColor=18181b&logo=github" alt="GitHub followers" />
 
-### ⚙️ Backend
-`C#` `ASP.NET` `Dapper`  
-Business logic, APIs and services.
-
-</td>
-<td width="25%" valign="top">
-
-### 🗃️ Data
-`SQL Server` `PostgreSQL`  
-Queries, procedures and data design.
-
-</td>
-<td width="25%" valign="top">
-
-### 🖥️ UI
-`Blazor` `WPF` `React`  
-Web and desktop experiences.
-
-</td>
-<td width="25%" valign="top">
-
-### 🔁 Workflow
-`Git` `GitHub` `Actions`  
-Versioning, automation and delivery.
-
-</td>
-</tr>
-</table>
+<br clear="right"/>
 
 ---
 
-## 📡 Live GitHub telemetry
+## Stack
 
 <div align="center">
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Roylizzz&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="Contribution activity graph" />
+<img src="https://skillicons.dev/icons?i=cs,dotnet,visualstudio,react,ts,js,postgres,kotlin,git,github,vscode&theme=dark&perline=11" alt="Tech stack" />
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Blazor-18181b?style=flat-square&logo=blazor&logoColor=a78bfa" alt="Blazor" />
+<img src="https://img.shields.io/badge/SQL_Server-18181b?style=flat-square&logo=microsoftsqlserver&logoColor=a78bfa" alt="SQL Server" />
+<img src="https://img.shields.io/badge/WPF-18181b?style=flat-square&logo=windows&logoColor=a78bfa" alt="WPF" />
+<img src="https://img.shields.io/badge/PostgreSQL-18181b?style=flat-square&logo=postgresql&logoColor=a78bfa" alt="PostgreSQL" />
 
 </div>
 
-<table>
-<tr>
-<td width="58%" align="center" valign="middle">
-
-<img width="100%" src="https://streak-stats.demolab.com?user=Roylizzz&theme=tokyonight&border_radius=10" alt="GitHub streak" />
-
-</td>
-<td width="42%" align="center" valign="middle">
-
-<img width="100%" src="https://coolreadme.xyz/api/owl-card?user=Roylizzz" alt="Dynamic owl streak card" />
-
-</td>
-</tr>
-</table>
-
-<sub>Live cards based on public GitHub activity. Private repository names are never listed here.</sub>
-
 ---
 
-## ⚔️ Developer progression
+## GitHub
+
+<div align="center">
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Roylizzz&bg_color=0d1117&color=c4b5fd&line=8b5cf6&point=e9d5ff&area=true&hide_border=true&custom_title=Activity" alt="GitHub activity graph" />
+
+<br>
+
+<img width="58%" src="https://streak-stats.demolab.com?user=Roylizzz&theme=transparent&hide_border=true&ring=8B5CF6&fire=A78BFA&currStreakLabel=C4B5FD&sideLabels=A1A1AA&dates=71717A&currStreakNum=E9D5FF&sideNums=E9D5FF" alt="GitHub streak" />
+<img width="39%" src="https://coolreadme.xyz/api/owl-card?user=Roylizzz" alt="GitHub owl card" />
+
+</div>
+
+---
 
 <div align="center">
 
 <a href="https://gitlevel.vercel.app/u/Roylizzz">
-  <img width="78%" src="https://gitlevel.vercel.app/api/card?username=Roylizzz&theme=volt&card_width=760" alt="Roylizzz GitLevel RPG card" />
+  <img width="72%" src="https://gitlevel.vercel.app/api/card?username=Roylizzz&theme=volt&card_width=760" alt="GitLevel" />
 </a>
 
-<br>
-
-<sub>Level, XP, class and combo evolve automatically from GitHub activity.</sub>
-
 </div>
-
----
-
-## 🌙 Dev break
-
-<details>
-<summary><b>💭 Random developer quote</b></summary>
-<br>
-<div align="center">
-<img width="90%" src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random programming quote" />
-</div>
-</details>
-
-<br>
-
-<details>
-<summary><b>😂 Random programming joke</b></summary>
-<br>
-<div align="center">
-<img width="82%" src="https://readme-jokes.vercel.app/api?bgColor=%231a1b26&borderColor=%237aa2f7&qColor=%23bb9af7&aColor=%237dcfff&textColor=%23c0caf5&codeColor=%23f7768e" alt="Random programming joke" />
-</div>
-</details>
-
----
-
-## 🎯 How I like to work
-
-<table>
-<tr>
-<td width="33%" align="center">
-
-### Build for reality
-<sub>Software should survive real users, real data and real edge cases.</sub>
-
-</td>
-<td width="33%" align="center">
-
-### Keep it understandable
-<sub>Good architecture should make the next change easier, not harder.</sub>
-
-</td>
-<td width="33%" align="center">
-
-### Keep evolving
-<sub>Every version is a chance to simplify, automate and improve.</sub>
-
-</td>
-</tr>
-</table>
-
-<br>
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Software-Engineering-1a1b26?style=for-the-badge&logo=dotnet&logoColor=bb9af7" alt="Software Engineering" />
-<img src="https://img.shields.io/badge/Automation-Workflows-1a1b26?style=for-the-badge&logo=githubactions&logoColor=7aa2f7" alt="Automation" />
-<img src="https://img.shields.io/badge/Anime-Aesthetic-1a1b26?style=for-the-badge&logo=starship&logoColor=f7768e" alt="Anime aesthetic" />
-
-<br><br>
-
-### `while (alive) { learn(); build(); improve(); }`
-
-<sub>software · systems · late-night ideas · anime vibes</sub>
-
-</div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,35:312e81,70:1a1b26,100:0f172a&height=120&section=footer" alt="Footer" />
