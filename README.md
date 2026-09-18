@@ -55,6 +55,14 @@
 
 <div align="center">
 
+<img src="./assets/ascii-profile.svg" width="100%" alt="Roylizzz ASCII profile card" />
+
+</div>
+
+<br>
+
+<div align="center">
+
 <img src="https://skillicons.dev/icons?i=cs,dotnet,visualstudio,postgres,react,ts,kotlin,git,github,vscode&theme=dark&perline=10" alt="Tech stack" />
 
 <br><br>
