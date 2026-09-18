@@ -22,9 +22,9 @@
 
 <img src="https://raw.githubusercontent.com/Roylizzz/Roylizzz/main/assets/pill-visitors.svg" alt="Visitors" height="26">
 
-<br><br>
+<br>
 
-<img src="https://count.getloli.com/get/@Roylizzz?theme=asoul" alt="Visitor counter" height="80">
+<img src="https://count.getloli.com/get/@Roylizzz?theme=asoul" alt="Visitor counter" height="96">
 
 </div>
 
