@@ -368,6 +368,310 @@ def hero(pal: dict) -> str:
             f'fill="{colour}" stroke="{pal["border"]}" stroke-width="0.6" class="sw" '
             f'style="animation-delay:{round(i * 0.18, 2)}s"/>'
         )
+
+    # corner brackets
+    for path in [
+        "M40 16h-24v24",
+        "M960 16h24v24",
+        "M40 424h-24v-24",
+        "M960 424h24v-24",
+    ]:
+        out.append(
+            f'<path d="{path}" stroke="{pal["accent"]}" stroke-width="2" opacity="0.55" '
+            'stroke-linecap="round"/>'
+        )
+
+    return svg(W, H, "".join(out))
+
+
+# --------------------------------------------------------------------------
+# section headings
+# --------------------------------------------------------------------------
+
+
+def heading(title: str, subtitle: str) -> str:
+    W, H = 760, 62
+    scale = 5
+    out = [
+        "<defs>"
+        '<linearGradient id="t" x1="0" y1="0" x2="1" y2="0">'
+        f'<stop offset="0" stop-color="{NEUTRAL["accent"]}"/>'
+        f'<stop offset="1" stop-color="{NEUTRAL["glow"]}"/></linearGradient>'
+        "</defs>"
+    ]
+    # pixel bracket
+    out.append(
+        f'<g fill="{NEUTRAL["accent2"]}">'
+        '<rect x="0" y="6" width="6" height="6"/>'
+        '<rect x="0" y="16" width="6" height="26" opacity="0.85"/>'
+        '<rect x="0" y="46" width="6" height="6"/>'
+        '<rect x="10" y="16" width="6" height="26" opacity="0.5"/>'
+        "</g>"
+    )
+    text_x = 28
+    out.append(pf.draw(title, text_x, 8, scale, 1, "url(#t)"))
+    width = pf.measure(title, scale)
+    out.append(
+        mono(subtitle, text_x + 2, 56, 11, NEUTRAL["accent"], spacing=1.1, opacity=0.72)
+    )
+    line_x = text_x + width + 24
+    out.append(
+        f'<path d="M{line_x} 22h{W - line_x - 26}" stroke="{NEUTRAL["accent"]}" '
+        'stroke-width="1.5" stroke-dasharray="2 6" opacity="0.5"/>'
+    )
+    out.append(
+        f'<g fill="{NEUTRAL["glow"]}" opacity="0.8">'
+        f'<rect x="{W - 18}" y="15" width="7" height="7" transform="rotate(45 {W - 14.5} 18.5)"/>'
+        "</g>"
+    )
+    return svg(W, H, "".join(out))
+
+
+# --------------------------------------------------------------------------
+# pills
+# --------------------------------------------------------------------------
+
+
+def pill(text: str, tone: str = "accent") -> str:
+    scale = 3
+    tw = pf.measure(text, scale)
+    W = tw + 30
+    H = 36
+    colour = NEUTRAL[tone]
+    out = [
+        f'<rect x="0.75" y="0.75" width="{W - 1.5}" height="{H - 1.5}" rx="8" '
+        f'fill="{colour}" fill-opacity="0.13" stroke="{colour}" stroke-width="1.5" '
+        'stroke-opacity="0.55"/>',
+        f'<rect x="8" y="{H // 2 - 4}" width="4" height="8" rx="1" fill="{colour}"/>',
+        pf.draw(text, 19, (H - pf.height(scale)) // 2 + 1, scale, 1, colour),
+    ]
+    return svg(W, H, "".join(out))
+
+
+# --------------------------------------------------------------------------
+# note strips
+# --------------------------------------------------------------------------
+
+
+def note_strip(text: str) -> str:
+    """A dashed, theme-neutral strip for one-line asides."""
+    W, H = 760, 46
+    colour = NEUTRAL["accent"]
+    out = [
+        f'<rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="10" fill="{colour}" '
+        f'fill-opacity="0.07" stroke="{colour}" stroke-width="1.5" stroke-opacity="0.45" '
+        'stroke-dasharray="4 6"/>',
+        f'<g fill="{colour}"><rect x="18" y="{H // 2 - 6}" width="4" height="4"/>'
+        f'<rect x="18" y="{H // 2}" width="4" height="4" opacity="0.6"/>'
+        f'<rect x="{W - 22}" y="{H // 2 - 6}" width="4" height="4" opacity="0.6"/>'
+        f'<rect x="{W - 22}" y="{H // 2}" width="4" height="4"/></g>',
+        mono(text, W // 2, H // 2 + 4, 12, colour, anchor="middle", spacing=0.6, opacity=0.95),
+    ]
+    return svg(W, H, "".join(out))
+
+
+# --------------------------------------------------------------------------
+# divider
+# --------------------------------------------------------------------------
+
+
+def divider() -> str:
+    W, H = 1000, 26
+    out = [
+        "<style>.mv{animation:mv 7s ease-in-out infinite}"
+        "@keyframes mv{0%{transform:translateX(-300px)}50%{transform:translateX(300px)}"
+        "100%{transform:translateX(-300px)}}</style>",
+        "<defs>"
+        '<linearGradient id="d" x1="0" y1="0" x2="1" y2="0">'
+        f'<stop offset="0" stop-color="{NEUTRAL["accent"]}" stop-opacity="0"/>'
+        f'<stop offset="0.5" stop-color="{NEUTRAL["accent"]}" stop-opacity="1"/>'
+        f'<stop offset="1" stop-color="{NEUTRAL["accent"]}" stop-opacity="0"/>'
+        "</linearGradient></defs>",
+        '<path d="M40 13h920" stroke="url(#d)" stroke-width="2"/>',
+    ]
+    cx = W // 2
+    out.append(
+        f'<g fill="{NEUTRAL["glow"]}">'
+        f'<rect x="{cx - 4}" y="9" width="8" height="8" transform="rotate(45 {cx} 13)"/>'
+        f'<rect x="{cx - 26}" y="10.5" width="5" height="5" transform="rotate(45 {cx - 23.5} 13)" opacity="0.6"/>'
+        f'<rect x="{cx + 21}" y="10.5" width="5" height="5" transform="rotate(45 {cx + 23.5} 13)" opacity="0.6"/>'
+        "</g>"
+    )
+    out.append(
+        f'<g class="mv"><rect x="{cx - 1}" y="11" width="16" height="4" rx="2" '
+        f'fill="{NEUTRAL["glow"]}" opacity="0.55"/></g>'
+    )
+    return svg(W, H, "".join(out))
+
+
+# --------------------------------------------------------------------------
+# off-screen cards
+# --------------------------------------------------------------------------
+
+COVERS = ROOT / "assets" / "covers"
+
+# slug -> the line that is actually mine. Title, format, year and score come
+# from assets/covers/meta.json, written by tools/fetch_covers.py.
+WATCHLIST = [
+    ("chainsaw-man", "CHAINSAW MAN", "Denji just wants a normal life. He never gets one."),
+    ("death-note", "DEATH NOTE", "Still the sharpest chess match ever animated."),
+    ("vinland-saga", "VINLAND SAGA", "Thorfinn's arc wrecked me. Farmland included."),
+    ("rezero", "RE:ZERO", "Trial and error, except the errors really hurt."),
+    ("lord-of-the-mysteries", "LORD OF THE MYSTERIES", "Klein's paranoia is basically my debug process."),
+    ("mushoku-tensei", "MUSHOKU TENSEI", "A second run at life, with the consequences kept."),
+]
+
+FORMATS = {"TV": "ANIME", "MOVIE": "FILM", "OVA": "OVA", "MANGA": "MANGA", "NOVEL": "NOVEL"}
+
+
+def load_meta() -> dict:
+    path = COVERS / "meta.json"
+    if not path.exists():
+        raise SystemExit(
+            "assets/covers/meta.json is missing - run: python tools/fetch_covers.py"
+        )
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def wrap_title(title: str, room: int) -> tuple[list[str], int]:
+    """One line when it fits, otherwise break on the space closest to the middle."""
+    if pf.measure(title, 4) <= room:
+        return [title], 4
+    scale = 3
+    words = title.split(" ")
+    best, gap = 1, 10**9
+    for cut in range(1, len(words)):
+        widest = max(
+            pf.measure(" ".join(words[:cut]), scale),
+            pf.measure(" ".join(words[cut:]), scale),
+        )
+        if widest < gap:
+            best, gap = cut, widest
+    return [" ".join(words[:best]), " ".join(words[best:])], scale
+
+
+def watch_card(slug: str, title: str, note: str, meta: dict) -> str:
+    """A poster in a purple frame, its real metadata, and one line of mine."""
+    W, H = 480, 200
+    px, py, pw, ph = 18, 14, 116, 172
+    out = [
+        "<defs>"
+        '<linearGradient id="c" x1="0" y1="0" x2="1" y2="1">'
+        '<stop offset="0" stop-color="#150C28"/><stop offset="1" stop-color="#0A0513"/>'
+        "</linearGradient>"
+        '<linearGradient id="t" x1="0" y1="0" x2="1" y2="0">'
+        '<stop offset="0" stop-color="#DDD1FF"/><stop offset="1" stop-color="#A855F7"/>'
+        "</linearGradient>"
+        '<linearGradient id="v" x1="0" y1="0" x2="0" y2="1">'
+        '<stop offset="0.45" stop-color="#0A0513" stop-opacity="0"/>'
+        '<stop offset="1" stop-color="#0A0513" stop-opacity="0.75"/>'
+        "</linearGradient>"
+        '<filter id="g" x="-40%" y="-40%" width="180%" height="180%">'
+        '<feGaussianBlur stdDeviation="9"/></filter>'
+        f'<clipPath id="poster"><rect x="{px}" y="{py}" width="{pw}" height="{ph}" rx="10"/>'
+        "</clipPath>"
+        "</defs>",
+        f'<rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="16" fill="url(#c)" '
+        'stroke="#33205C" stroke-width="1.5"/>',
+        f'<rect x="1" y="1" width="4" height="{H - 2}" rx="2" fill="#8B5CF6" opacity="0.85"/>',
+        # the cover bleeds a soft purple glow behind itself
+        f'<g filter="url(#g)" opacity="0.5"><rect x="{px + 8}" y="{py + 10}" '
+        f'width="{pw - 16}" height="{ph - 20}" rx="12" fill="#7C3AED"/></g>',
+        embed(COVERS / f"{slug}.jpg", px, py, pw, ph, 'clip-path="url(#poster)"'),
+        f'<rect x="{px}" y="{py}" width="{pw}" height="{ph}" rx="10" fill="url(#v)"/>',
+        f'<rect x="{px + 0.75}" y="{py + 0.75}" width="{pw - 1.5}" height="{ph - 1.5}" rx="10" '
+        'fill="none" stroke="#A855F7" stroke-width="1.5" stroke-opacity="0.8"/>',
+    ]
+
+    tx = px + pw + 30
+    room = W - tx - 24
+    lines, title_scale = wrap_title(title, room)
+    if len(lines) == 1:
+        out.append(pf.draw(lines[0], tx, 34, title_scale, 1, "url(#t)"))
+    else:
+        out.append(pf.draw(lines[0], tx, 26, title_scale, 1, "url(#t)"))
+        out.append(pf.draw(lines[1], tx, 50, title_scale, 1, "url(#t)"))
+
+    kind = FORMATS.get(meta.get("format", ""), meta.get("format", ""))
+    tag = " \u00b7 ".join(str(bit) for bit in (kind, meta.get("year")) if bit)
+    out.append(mono(tag, tx + 2, 90, 10, "#8B5CF6", spacing=2.2, opacity=0.9))
+    out.append(f'<path d="M{tx} 102h{W - tx - 26}" stroke="#2A1A4A" stroke-width="1"/>')
+    out.append(mono(note, tx, 124, 10.5, "#9C8AC7", spacing=0.1))
+
+    score = meta.get("score")
+    if score:
+        bar_w = W - tx - 26
+        out.append(mono("anilist score", tx, 158, 9.5, "#6C5A99", spacing=1.4))
+        out.append(mono(str(score), tx + bar_w, 158, 11, "#C4B5FD", weight=700, anchor="end"))
+        out.append(
+            f'<rect x="{tx}" y="166" width="{bar_w}" height="6" rx="3" '
+            'fill="#8B5CF6" opacity="0.16"/>'
+        )
+        out.append(
+            f'<rect x="{tx}" y="166" width="{bar_w * score / 100:.1f}" height="6" rx="3" '
+            'fill="#A855F7"/>'
+        )
+    return svg(W, H, "".join(out))
+
+
+# --------------------------------------------------------------------------
+# character strip
+# --------------------------------------------------------------------------
+
+
+def characters(meta: dict) -> str:
+    """Six circular portraits - the most-favourited character of each title."""
+    W, H = 760, 172
+    size, gap = 96, 28
+    total = len(WATCHLIST) * size + (len(WATCHLIST) - 1) * gap
+    x0 = (W - total) // 2
+    out = [
+        "<defs>"
+        '<linearGradient id="r" x1="0" y1="0" x2="1" y2="1">'
+        f'<stop offset="0" stop-color="{NEUTRAL["glow"]}"/>'
+        f'<stop offset="1" stop-color="{NEUTRAL["accent"]}"/></linearGradient>'
+        '<filter id="g" x="-50%" y="-50%" width="200%" height="200%">'
+        '<feGaussianBlur stdDeviation="7"/></filter>'
+    ]
+    for index in range(len(WATCHLIST)):
+        cx = x0 + index * (size + gap) + size // 2
+        out.append(
+            f'<clipPath id="c{index}"><circle cx="{cx}" cy="{14 + size // 2}" '
+            f'r="{size // 2}"/></clipPath>'
+        )
+    out.append("</defs>")
+
+    for index, (slug, _, _) in enumerate(WATCHLIST):
+        x = x0 + index * (size + gap)
+        cx, cy = x + size // 2, 14 + size // 2
+        face = COVERS / f"{slug}-face.jpg"
+        out.append(
+            f'<g filter="url(#g)" opacity="0.45"><circle cx="{cx}" cy="{cy}" '
+            f'r="{size // 2 - 2}" fill="{NEUTRAL["accent"]}"/></g>'
+        )
+        if face.exists():
+            out.append(embed(face, x, 14, size, size, f'clip-path="url(#c{index})"'))
+        out.append(
+            f'<circle cx="{cx}" cy="{cy}" r="{size // 2 - 1}" fill="none" '
+            'stroke="url(#r)" stroke-width="2.5"/>'
+        )
+        name = meta.get(slug, {}).get("character", "").split(" ")[0].upper() or "?"
+        scale = 2 if pf.measure(name, 2) <= size + gap - 6 else 1
+        out.append(
+            pf.draw(name, cx - pf.measure(name, scale) // 2, 128, scale, 1, NEUTRAL["accent"])
+        )
+    out.append(
+        mono(
+            "most-favourited character of each, straight from anilist",
+            W // 2,
+            160,
+            10.5,
+            NEUTRAL["accent"],
+            anchor="middle",
+            spacing=1.2,
+            opacity=0.75,
+        )
+    )
     return svg(W, H, "".join(out))
 
 
