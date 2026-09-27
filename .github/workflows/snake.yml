@@ -1,16 +1,10 @@
 name: snake
 
-# Redraws the contribution snake and publishes it to the `output` branch.
-# Keeping the generated art off `main` is what makes this one stable: the
-# README always points at a branch that only this job ever writes to.
+# Disabled automatic runs to avoid consuming GitHub Actions minutes.
+# Run manually from the Actions tab only when you want to refresh the contribution snake.
 
 on:
-  schedule:
-    - cron: "17 3,15 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 concurrency:
   group: snake
