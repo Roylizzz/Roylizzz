@@ -1,19 +1,10 @@
 name: metrics
 
-# Rebuilds assets/stats-*.svg, assets/pulse-*.svg and assets/codetime-*.svg
-# from the GitHub GraphQL API (and WakaTime, when the secret exists).
-# No third-party card service is involved: the SVGs are drawn by tools/.
+# Disabled automatic runs to avoid consuming GitHub Actions minutes.
+# Run manually from the Actions tab only when you want to refresh the profile metrics.
 
 on:
-  schedule:
-    - cron: "41 4 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - "tools/**"
-      - ".github/workflows/metrics.yml"
 
 concurrency:
   group: metrics
